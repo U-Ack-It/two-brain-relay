@@ -1,0 +1,17 @@
+# Runtime data — never publish
+relay.db
+relay.db-*
+outputs/
+worktrees/
+reports/
+*.log
+
+# Local config may hold paths you don't want public; ship relay.example.json instead
+relay.json
+
+# Secrets never live here (keys come from the OS keyring), but just in case:
+*.env
+*.key
+.secrets/
+__pycache__/
+*.pyc

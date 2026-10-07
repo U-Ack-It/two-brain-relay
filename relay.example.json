@@ -1,0 +1,13 @@
+{
+  "daily_cap_usd": 1.00,
+  "claude_model_cheap": "claude-haiku-4-5",
+  "claude_model_strong": "claude-sonnet-4-6",
+  "claude_context_tokens": 60000,
+  "ods_url": "http://127.0.0.1:11434/v1/chat/completions",
+  "ods_model": "ods/current",
+  "read_roots": ["~/Projects", "~/Documents"],
+  "reports_dir": "~/relay/reports",
+  "max_steps_per_job": 12,
+  "daily_digest_hour": 20,
+  "weekly_evaluation": true
+}
