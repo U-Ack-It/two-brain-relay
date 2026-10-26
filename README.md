@@ -93,6 +93,13 @@ Point `ods_url` at any OpenAI-compatible local endpoint (llama.cpp, Ollama, LM S
 - **State is a tiny SQLite queue.** Jobs, steps, per-step cost and the carried-forward work all live in one local DB.
 - **Model-agnostic.** The cloud side speaks the Anthropic Messages API; the local side speaks the OpenAI chat-completions API. Swap either without touching the logic.
 
+## Related project: CHANCO (Second Brain)
+
+Also documented in this repo: **CHANCO**, a local-first AI assistant for Linux with a voice loop, document capture, a Gmail drafting assistant and a Qdrant RAG memory.
+
+- [CHANCO overview](docs/CHANCO.md)
+- [Build log: every stage, bug and fix](docs/BUILD_LOG.md)
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
